@@ -2,7 +2,7 @@
 imports:
     import {Loading} from 'react-gm';
 ---
-# markdown-it-react-loader
+# react-markdown-it-loader
 
 用Markdown提供一份直观的React文档，有可运行的示例，有示例源代码，有示例的说明。
 
@@ -10,20 +10,20 @@ imports:
 
 经过几番尝试，结合 React 的特点。写了一套处理 Markdown 文件的 webpack loader，可以将 Markdown 转成 React 文件。
 
-本md对应生成的文档是[readme.md](https://liyatang.github.io/markdown-it-react-loader/)
+本md对应生成的文档是[readme.md](https://AdamantG.github.io/react-markdown-it-loader/)
 
 ---
 
 ## Install
 
-`npm install markdown-it-react-loader`
+`npm install react-markdown-it-loader`
 
 在 webpack 中加入 loader 
 
 ```js
 {
     test: /\.md$/,
-    loader: 'babel!markdown-it-react-loader'
+    loader: 'babel!react-markdown-it-loader'
 }
 ```
 
@@ -185,6 +185,7 @@ userAgent是：`{navigator.userAgent}`
 - [markdown-it](https://github.com/markdown-it/markdown-it)
 - [element](https://github.com/ElemeFE/element)
 - [react-markdown-loader](https://github.com/javiercf/react-markdown-loader)
+- [markdown-it-react-loader](https://github.com/liyatang/markdown-it-react-loader)
 
 ## 其他
 
@@ -198,6 +199,16 @@ github page是不支持browserHistory的，一般路由用hash处理。而锚点
 ### react模块
 
 默认已经`import React from 'react';`
+
+### table
+
+Header1 | Header2
+------- | -------
+cell1 | cell2
+
+
+
+
 
 
 
