@@ -10,7 +10,7 @@ imports:
 
 经过几番尝试，结合 React 的特点。写了一套处理 Markdown 文件的 webpack loader，可以将 Markdown 转成 React 文件。
 
-本md对应生成的文档是[readme.md](https://AdamantG.github.io/react-markdown-it-loader/)
+本md对应生成的文档是[readme.md](https://github.com/AdamantG/react-markdown-it-loader)
 
 ---
 
