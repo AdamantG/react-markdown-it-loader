@@ -10,8 +10,12 @@ let options = {
     className: 'doc'
 };
 
-md = md().enable([
-    'smartquotes'
+md = md({
+    linkify: true,
+    typographer: true,
+    xhtmlOut: true
+}).enable([
+    'smartquotes','image','link'
 ]).use(anchor, {
     slugify: slugify,
     permalink: true,
